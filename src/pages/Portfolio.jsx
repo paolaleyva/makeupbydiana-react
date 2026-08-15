@@ -1,7 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
 
-// Swap `src` for real photos in /public/portfolio/ once you have them.
-// Keeping this as plain data means adding a new photo never touches the layout code.
 const portfolioItems = [
   { id: 1, src: "src/assets/bridal-1.jpeg", alt: { en: "Bridal makeup, soft glam", es: "Maquillaje de novia, glam suave" } },
   { id: 2, src: "src/assets/quince-2.jpeg", alt: { en: "Quinceanera look", es: "Look de quinceañera" } },
