@@ -75,7 +75,7 @@ export const translations = {
     serviceSelectPlaceholder: "Type of services inquiring for",
     fieldHeadcount: "How many people are you booking for?",
     inquirySubmit: "Send inquiry",
-    inquirySuccess: "Thank you! Your inquiry has been received — I'll follow up within 2–3 business days. A confirmation has been emailed to you and to Diana.",
+    inquirySuccess: "Thank you! Your inquiry has been received — I'll follow up within 2–3 business days.",
 
     // Contact
     contactTitle: "Contact & Booking Policies",
@@ -156,7 +156,7 @@ export const translations = {
     serviceSelectPlaceholder: "Tipo de servicios que solicitas",
     fieldHeadcount: "¿Número aproximado de personas que recibirán servicios?",
     inquirySubmit: "Enviar solicitud",
-    inquirySuccess: "¡Gracias! Tu solicitud fue recibida — te responderé en un plazo de 2 a 3 días hábiles. Se envió una confirmación a tu correo y al de Diana.",
+    inquirySuccess: "¡Gracias! Tu solicitud fue recibida — te responderé en un plazo de 2 a 3 días hábiles.",
 
     contactTitle: "Contacto y Políticas de Reservación",
     policiesHeading: "Políticas de Reservación",
