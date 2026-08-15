@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  --radius: 14px;
+}
+
+/* Light mode (default) - warm dusty-rose / mauve, matching Diana's current brand */
+:root,
+[data-theme="light"] {
+  --bg: #faf5f2;
+  --surface: #ffffff;
+  --text: #2e2229;
+  --text-muted: #786a70;
+  --accent: #c98a95;
+  --accent-strong: #a8616f;
+  --border: #ecdfe0;
+  --sparkle-gold: #cc9a54;
+  --aura-1: rgba(201, 138, 149, 0.28);
+  --aura-2: rgba(204, 154, 84, 0.20);
+  --aura-3: rgba(168, 97, 111, 0.16);
+  --btn-glow: rgba(168, 97, 111, 0.45);
+}
+
+/* Dark mode - deep plum/charcoal, same rose accent so it still reads as her brand */
+[data-theme="dark"] {
+  --bg: #221820;
+  --surface: #2c1f29;
+  --text: #f4e9ec;
+  --text-muted: #c9b3bb;
+  --accent: #e0a3ad;
+  --accent-strong: #eec3ca;
+  --border: #3d2c38;
+  --sparkle-gold: #e0b672;
+  --aura-1: rgba(224, 163, 173, 0.22);
+  --aura-2: rgba(224, 182, 114, 0.16);
+  --aura-3: rgba(238, 195, 202, 0.14);
+  --btn-glow: rgba(238, 195, 202, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 15%, var(--aura-1) 0%, transparent 40%),
+    radial-gradient(circle at 88% 10%, var(--aura-2) 0%, transparent 45%),
+    radial-gradient(circle at 50% 100%, var(--aura-3) 0%, transparent 50%),
+    var(--bg);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: var(--font-body);
+  transition: background 0.2s ease, color 0.2s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  margin: 0 0 0.4em;
+  color: var(--text);
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.5rem; }
+
+p {
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a {
+  color: var(--accent-strong);
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
