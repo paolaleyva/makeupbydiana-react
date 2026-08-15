@@ -1,12 +1,12 @@
 import { useLanguage } from "../context/LanguageContext";
 
 const portfolioItems = [
-  { id: 1, src: "src/assets/bridal-1.jpeg", alt: { en: "Bridal makeup, soft glam", es: "Maquillaje de novia, glam suave" } },
-  { id: 2, src: "src/assets/quince-2.jpeg", alt: { en: "Quinceanera look", es: "Look de quinceañera" } },
-  { id: 3, src: "src/assets/glam-1.jpeg", alt: { en: "Full glam event makeup", es: "Maquillaje glam para evento" } },
-  { id: 4, src: "src/assets/wax-1.jpeg", alt: { en: "Brow waxing result", es: "Resultado de cera de cejas" } },
-  { id: 5, src: "src/assets/quince-1.jpeg", alt: { en: "Quinceanera look", es: "Look de quinceañera" } },
-  { id: 6, src: "src/assets/glam-2.jpeg", alt: { en: "Makeup glam look", es: "Look de maquillaje para salir" } },
+  { id: 1, src: "/portfolio/bridal-1.jpeg", alt: { en: "Bridal makeup, soft glam", es: "Maquillaje de novia, glam suave" } },
+  { id: 2, src: "/portfolio/quince-2.jpeg", alt: { en: "Quinceañera makeup", es: "Maquillaje de quinceañera" } },
+  { id: 3, src: "/portfolio/glam-1.jpeg", alt: { en: "Full glam event makeup", es: "Maquillaje glam para evento" } },
+  { id: 4, src: "/portfolio/wax-1.jpeg", alt: { en: "Waxing service result", es: "Resultado de servicio de cera" } },
+  { id: 5, src: "/portfolio/quince-1.jpeg", alt: { en: "Quinceañera hairstyling", es: "Peinado de quinceañera" } },
+  { id: 6, src: "/portfolio/glam-2.jpeg", alt: { en: "Night out makeup look", es: "Look de maquillaje para salir" } },
 ];
 
 export default function Portfolio() {
