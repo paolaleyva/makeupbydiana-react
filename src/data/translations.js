@@ -80,7 +80,7 @@ export const translations = {
     // Contact
     contactTitle: "Contact & Booking Policies",
     policiesHeading: "Booking Policies",
-    contactSubhead: "Have a general question? Send a message below, or reach out directly using the info to the right.",
+    contactSubhead: "Have a general question? Send a message below.",
     fieldMessage: "Message",
     contactSubmit: "Send message",
     contactSuccess: "Thanks for reaching out! Your message has been sent and you'll hear back within 2–3 business days.",
@@ -160,7 +160,7 @@ export const translations = {
 
     contactTitle: "Contacto y Políticas de Reservación",
     policiesHeading: "Políticas de Reservación",
-    contactSubhead: "¿Tienes una pregunta general? Envía un mensaje abajo, o contáctame directamente con la información a la derecha.",
+    contactSubhead: "¿Tienes una pregunta general? Envía un mensaje abajo.",
     fieldMessage: "Mensaje",
     contactSubmit: "Enviar mensaje",
     contactSuccess: "¡Gracias por escribir! Tu mensaje fue enviado y recibirás una respuesta en un plazo de 2 a 3 días hábiles.",
